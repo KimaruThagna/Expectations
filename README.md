@@ -21,3 +21,6 @@ For example, a custom assertion can be
 
 # Validation using a validation set
 You can use the primary expectation suite to run validation on any new data in the format of the primary data that you used to create the primary expectation suite. For example in this case, I can have another CSV or SQL database source that has transactions data similar to `data/mock_transactions.csv` to do this, run the command `great_expectations --v3-api checkpoint new my_checkpoint`
+
+# Further reading
+The last part involves customized deployments whose documentation can be found [here](https://docs.greatexpectations.io/docs/tutorials/getting_started/customize_your_deployment)
