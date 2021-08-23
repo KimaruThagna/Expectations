@@ -1,0 +1,20 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "bank_transactions.demo",
+  "expectations": [],
+  "meta": {
+    "citations": [
+      {
+        "batch_request": {
+          "data_asset_name": "mock_transaction_data.csv",
+          "data_connector_name": "default_inferred_data_connector_name",
+          "datasource_name": "data_dir",
+          "limit": 1000
+        },
+        "citation_date": "2021-08-23T07:59:37.431660Z",
+        "comment": "Created suite added via CLI"
+      }
+    ],
+    "great_expectations_version": "0.13.29"
+  }
+}
